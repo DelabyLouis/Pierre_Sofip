@@ -6,6 +6,7 @@
     <title><?php echo isset($pageTitle) ? $pageTitle : 'Gestion des Stagiaires'; ?></title>
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
     
     <link href="<?php echo $rootPath ?? ''; ?>public/css/style.css" rel="stylesheet">
 </head>
@@ -37,13 +38,13 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" 
-                           href="<?php echo $rootPath; ?>stagiaires.php">
+                           href="<?php echo $rootPath; ?>templates/stagiaires.php">
                            <i class="bi bi-people"></i> Liste des Stagiaires
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" 
-                           href="<?php echo $rootPath; ?>ajouter.php">
+                           href="<?php echo $rootPath; ?>templates/addStagiaire.php">
                            <i class="bi bi-person-plus"></i> Ajouter un Stagiaire
                         </a>
                     </li>
