@@ -1,5 +1,5 @@
 <?php
-$pageTitle = "Test de Connexion - Pierre SOFIP";
+$pageTitle = "Test de Connexion";
 include '../templates/partials/_header.php';
 
 date_default_timezone_set('Europe/Paris');

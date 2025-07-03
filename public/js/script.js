@@ -1,6 +1,4 @@
-// Script personnalisé pour le projet Pierre SOFIP
 document.addEventListener("DOMContentLoaded", function () {
-  // Animation pour les alertes de succès/erreur
   const alerts = document.querySelectorAll(".alert");
   alerts.forEach((alert) => {
     if (
@@ -16,7 +14,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
-  // Confirmation avant suppression
   const deleteButtons = document.querySelectorAll(
     '.btn-danger[data-action="delete"]'
   );
@@ -28,7 +25,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
-  // Validation des formulaires
   const forms = document.querySelectorAll("form");
   forms.forEach((form) => {
     form.addEventListener("submit", function (e) {

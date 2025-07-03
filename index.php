@@ -1,5 +1,5 @@
 <?php
-$pageTitle = "Accueil - Gestion des Stagiaires";
+$pageTitle = "Accueil";
 include 'templates/partials/_header.php';
 ?>
 
@@ -7,7 +7,7 @@ include 'templates/partials/_header.php';
     <div class="col-12">
         <div class="jumbotron bg-primary text-white p-5 rounded mb-4">
             <h1 class="display-4">Bienvenue dans le système de gestion des stagiaires</h1>
-            <p class="lead">Pierre SOFIP - Plateforme de gestion et suivi des stagiaires</p>
+            <p class="lead">Plateforme de gestion et suivi des stagiaires</p>
             <hr class="my-4" style="border-color: rgba(255,255,255,0.3);">
             <p>Gérez facilement vos stagiaires : ajout, modification, suppression et consultation des profils.</p>
             <a class="btn btn-light btn-lg" href="stagiaires.php" role="button">

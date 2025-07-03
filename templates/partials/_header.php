@@ -3,27 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo isset($pageTitle) ? $pageTitle : 'Gestion des Stagiaires - Pierre SOFIP'; ?></title>
+    <title><?php echo isset($pageTitle) ? $pageTitle : 'Gestion des Stagiaires'; ?></title>
     
-    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     
-    <!-- Custom CSS -->
     <link href="<?php echo $rootPath ?? ''; ?>public/css/style.css" rel="stylesheet">
 </head>
 <body>
-    <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container">
             <?php
-            // Déterminer le chemin relatif vers la racine
             $rootPath = '';
             if (strpos($_SERVER['REQUEST_URI'], '/tests/') !== false) {
                 $rootPath = '../';
             }
             ?>
             <a class="navbar-brand" href="<?php echo $rootPath; ?>index.php">
-                <strong>📚 Pierre SOFIP</strong> - Gestion des Stagiaires
+                <strong>📚 Gestion des Stagiaires</strong>
             </a>
             
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
@@ -62,5 +58,4 @@
         </div>
     </nav>
 
-    <!-- Main Content Container -->
     <div class="container main-content">
