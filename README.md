@@ -15,7 +15,7 @@ CREATE DATABASE pierre_sofip;
 
 ## Configuration BDD
 
-Modifiez `config/connexiondb.php` :
+Verifiez `config/connexiondb.php` :
 
 ```php
 $server = 'localhost';
