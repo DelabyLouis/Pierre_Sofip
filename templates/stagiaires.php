@@ -12,7 +12,7 @@
     
     <div class="table-responsive">
         <table class="table table-striped table-bordered">
-            <thead class="table-dark">
+            <thead class="table-header-dark">
                 <tr>
                     <th class="text-center">ID</th>
                     <th class="text-center">Nom</th>
